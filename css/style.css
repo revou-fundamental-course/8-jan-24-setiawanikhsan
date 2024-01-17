@@ -118,9 +118,6 @@ p {
 }
 */
 
-
-
-
 /*
 a, button,input[type=submit],input[type=reset] {
     font-family: sans-serif;
@@ -138,11 +135,6 @@ a, button,input[type=submit],input[type=reset] {
 a {
     text-decoration: none;
 }
-
-a:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover{
-    opacity:0.9;
-}
-*/
 
 /*
 h1 {
