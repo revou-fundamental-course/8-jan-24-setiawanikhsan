@@ -4,7 +4,7 @@ function hitungLuasPersegi() {
 
     // Validasi apakah input adalah angka
     if (isNaN(luas)) {
-        alert("Masukkan angka valid untuk panjang!");
+        alert("Cuman bisa masukan Angka aja ehehe!");
         return;
     }
 
@@ -21,7 +21,7 @@ function hitungKelilingPersegi() {
 
     // Validasi apakah input adalah angka
     if (isNaN(keliling)) {
-        alert("Masukkan angka valid untuk panjang sisi!");
+        alert("Cuman bisa masukan Angka aja ehehe!");
         return;
     }
 
