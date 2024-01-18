@@ -10,32 +10,45 @@
 
 <body>
 
-    <header>
+    <header id="back">
         <h1>Welcome to Kalkulator Metematik</h1>
         <p>Hai, Salam kenal saya Ikhsan Setiawan.</p>  
     </header>
 
     <div class="div1">
         <a href="#lpersegi">Menghitung Luas Persegi</a>
-        <a href="#">Menghitung Keliling Persegi</a>
+        <a href="#kpersegi">Menghitung Keliling Persegi</a>
             <h2 class="luas" id="lpersegi">Menghitung Luas Persegi</h2>
-            <img class="image"  src="persegi.png" alt=""> 
+            <img class="image"  src="assets/persegi.png" alt=""> 
                 <div class="div11">                                    
                     <label for="inputluas">Panjang Sisi:</label>
                         <input type="text" id="inputluas" placeholder="Masukkan panjang sisi">
                         <button onclick="hitungLuasPersegi()">Hitung Luas</button>
                         <p id="hasilLuas"></p>
                 </div>
+
+                <div class="divback">
+                    <span>
+                        <a href="#back">Kembali</a>
+                    </span>
+                
+ 
     </div>
+
+
     <div class="div2">
             <h2 id="kpersegi">Menghitung Keliling Persegi</h2>
-            <img class="image"  src="persegi.png" alt="">
+            <img class="image"  src="assets/persegi.png" alt="">
                 <div class="div12">
                     <label for="inputkel">Panjang Sisi:</label>
                         <input type="text" id="inputkel" placeholder="Masukkan panjang sisi">
                         <button onclick="hitungKelilingPersegi()">Hitung Keliling</button>
                         <p id="hasilKeliling"></p>
                 </div>
+                <div class="divback">
+                    <span>
+                        <a href="#back">Kembali</a>
+                    </span>
     </div>                                             
 </body>
 </html>
